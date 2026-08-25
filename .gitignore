@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+openclaw.json
+credentials/
+memory/
+direction.md
+plan.md
+decision-log.md
+drafts/
+transcripts/
+*.key
+*.pem
+*.token
+*.log
