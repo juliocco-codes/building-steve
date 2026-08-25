@@ -2,8 +2,6 @@
 
 Steve is a private career adviser with continuity. He keeps a long-term direction, a live plan, and a dated record of decisions in view so that important questions do not restart from zero in every conversation.
 
-This repository is a public blueprint, not a copy of my agent. Its goals, decisions, people, and examples are fictional. It contains no employer information, compensation details, private conversations, contacts, or personal career plan.
-
 ## The core design
 
 Keep three files separate:
@@ -55,9 +53,9 @@ Steve may help draft a message, application, or negotiation document. He cannot 
 
 - `workspace/AGENTS.md`: operating rules and file precedence.
 - `workspace/SOUL.md`: tone and advisory stance.
-- `workspace/USER.example.md`: fictional goals and boundaries.
+- `workspace/USER.example.md`: example goals and boundaries.
 - `workspace/skills/weekly-review/SKILL.md`: repeatable review process.
-- `examples/weekly-review.md`: fictional output.
+- `examples/weekly-review.md`: an example weekly review.
 - `SECURITY.md`: privacy checklist.
 
 ## License
