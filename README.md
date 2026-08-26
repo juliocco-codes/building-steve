@@ -60,4 +60,4 @@ Steve may help draft a message, application, or negotiation document. He cannot 
 
 ## License
 
-MIT. See `LICENSE`.
+Available for personal and non-commercial use. See `LICENSE` for details.
