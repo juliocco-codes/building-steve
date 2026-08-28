@@ -21,6 +21,13 @@ The direction should be stable but revisable. The plan should change when eviden
 5. Run the weekly review manually before scheduling it.
 6. Keep the agent read-only and unable to contact anyone.
 
+Steve is primarily an instruction-and-context system, rather than a collection of integrations. The included Node.js helper assembles the direction, current plan, and recent decisions into one review packet without giving the agent external authority.
+
+```bash
+npm test
+node src/cli.mjs examples/direction.md examples/plan.md examples/decision-log.md
+```
+
 OpenClaw loads workspace skills from `<workspace>/skills/<skill>/SKILL.md`. Verify current behavior in the official [skills documentation](https://docs.openclaw.ai/skills).
 
 ## What makes this different from a generic career chatbot
@@ -55,6 +62,9 @@ Steve may help draft a message, application, or negotiation document. He cannot 
 - `workspace/SOUL.md`: tone and advisory stance.
 - `workspace/USER.example.md`: example goals and boundaries.
 - `workspace/skills/weekly-review/SKILL.md`: repeatable review process.
+- `src/review-context.mjs`: deterministic assembly of a weekly review packet.
+- `src/cli.mjs`: command-line entry point for the helper.
+- `test/`: executable tests for the context layer.
 - `examples/weekly-review.md`: an example weekly review.
 - `SECURITY.md`: privacy checklist.
 
